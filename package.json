@@ -1,0 +1,30 @@
+{
+  "name": "tadmin",
+  "version": "0.0.1",
+  "author": "Gary Lloyd",
+  "description": "An admin tool for timesheets",
+  "contributors": [
+    {
+      "name": "Gary Lloyd",
+      "email": ""
+    }
+  ],
+  "main": "tadmin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llogr/tadmin.git"
+  },
+  "keywords": ["timesheet", "admin"],
+  "dependencies": { },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-concat": "0.x.x",
+    "grunt-contrib-uglify": "0.x.x",
+    "grunt-contrib-jasmine": "0.x.x",
+    "grunt-contrib-clean": "0.x.x",
+    "grunt-contrib-copy": "0.x.x",
+    "grunt-contrib-jshint": "0.x.x"
+  },
+  "bundledDependencies": [],
+  "license": "MIT"
+}
