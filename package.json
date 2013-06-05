@@ -26,5 +26,8 @@
     "grunt-contrib-jshint": "0.x.x"
   },
   "bundledDependencies": [],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt"
+  }
 }
