@@ -3,8 +3,9 @@ function Entry(taskcode, phasecode, date, hours, billable, officeOverheads, desc
 	this.phasecode = phasecode;
 	this.date = date;
 	this.hours = hours;
-	this.description = description;
 	this.billable = billable;
+	this.officeOverheads = officeOverheads;
+	this.description = description;
 
 	function toString() {
 		return "String";
@@ -18,5 +19,13 @@ function Entry(taskcode, phasecode, date, hours, billable, officeOverheads, desc
 		}
 	};
 }
+
+Entry.decodeBillableString = function(fieldText) {
+	if (fieldText === " ") {
+		return true;
+	} else {
+		return false;
+	}
+};
 
 // -BANKHOL  TESSELLA 01/04/13 343  7.5 Bank Holiday

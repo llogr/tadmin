@@ -25,7 +25,8 @@ module.exports = function(grunt) {
             'src/intro.js',
             'src/export.js',
             'src/outro.js',
-            'src/entry.js'
+            'src/entry.js',
+            'src/timesheetparser.js'
         ],
         pkg : pkg,
         uglifyFiles : {}
