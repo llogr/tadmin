@@ -67,7 +67,7 @@ module.exports = function(grunt) {
                 src : ['dist/**/*.js'],
                 options : {
                     specs : 'test/spec/*.spec.js',
-                    template : 'test/grunt.tmpl'
+                    //template : 'test/grunt.tmpl'
                 }
             }
         },
